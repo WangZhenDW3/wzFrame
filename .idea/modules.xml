@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/frame_orm/frame_orm.iml" filepath="$PROJECT_DIR$/frame_orm/frame_orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame_util/frame_util.iml" filepath="$PROJECT_DIR$/frame_util/frame_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame_web/frame_web.iml" filepath="$PROJECT_DIR$/frame_web/frame_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzFrame.iml" filepath="$PROJECT_DIR$/wzFrame.iml" />
+    </modules>
+  </component>
+</project>
