@@ -8,5 +8,8 @@ public class BaseTest {
         System.out.println("滚滚滚gasssss");
         System.out.println("滚滚滚123");
         System.out.println("滚滚滚123");
+        System.out.println("------------------");
+        System.out.println("滚滚滚456");
+        System.out.println("滚滚滚456");
     }
 }

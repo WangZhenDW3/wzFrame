@@ -11,4 +11,12 @@ public class TestConfilct {
     int kkk;
     String hello;
     Date newTime;
+
+    public int getName() {
+        return name;
+    }
+
+    public void setName(int name) {
+        this.name = name;
+    }
 }
