@@ -1,0 +1,79 @@
+# gitignore
+### Java template
+*.class
+
+# Package Files
+*.war
+*.ear
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+*.iml
+
+## Directory-based project format:
+.idea/*
+!.idea/runConfigurations/
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Eclipse template
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.bak
+*.swp
+/.settings/
+/**/.settings/
+/**/**/.settings/
+.externalToolBuilders/
+.project
+.classpathf
+
+### Maven template
+target/
+
+### project template
+FtpLocal/
+Backup/
+bin/
+uni_logs/
+logs/
+.dubbo/**
+*.cache
+*.dubbo.registry.file*
+*.cache.lock
+**/generatorConfig.xml
+/common-dao/src/main/resources/generatorConfig.xml
+**/init.properties
+/common-dao/src/main/resources/init.properties
+*.log
+.myumldata
+
+generatorConfig.xml
+
+/bin/
+*.db
+
+
+### ignore webjars temporary files
+/**/src/main/resources/META-INF/resources/
+/woegoimage/
+
+settings.xml
+
+
+### local application properties
+application-default.properties
+application-default.yml

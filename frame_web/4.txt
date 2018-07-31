@@ -1,98 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: http://123.126.34.184:48080/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.9.1/jooq-codegen-maven-3.9.1.pom
-Progress (1): 3.0 kB                    Downloaded: http://123.126.34.184:48080/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.9.1/jooq-codegen-maven-3.9.1.pom (3.0 kB at 1.8 kB/s)
-Downloading: http://123.126.34.184:48080/nexus/content/groups/public/org/jooq/jooq-parent/3.9.1/jooq-parent-3.9.1.pom
-Progress (1): 3.2/9.8 kBProgress (1): 7.2/9.8 kBProgress (1): 9.8 kB                        Downloaded: http://123.126.34.184:48080/nexus/content/groups/public/org/jooq/jooq-parent/3.9.1/jooq-parent-3.9.1.pom (9.8 kB at 14 kB/s)
-Downloading: http://123.126.34.184:48080/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.9.1/jooq-codegen-maven-3.9.1.jar
-Progress (1): 4.1/16 kBProgress (1): 6.6/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded: http://123.126.34.184:48080/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.9.1/jooq-codegen-maven-3.9.1.jar (16 kB at 20 kB/s)
-Downloading: http://123.126.34.184:48080/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.pom
-Progress (1): 3.1/16 kBProgress (1): 7.2/16 kBProgress (1): 11/16 kB Progress (1): 15/16 kBProgress (1): 16 kB                      Downloaded: http://123.126.34.184:48080/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.pom (16 kB at 220 kB/s)
-Downloading: http://123.126.34.184:48080/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.jar
-Progress (1): 3.1/246 kBProgress (1): 6.6/246 kBProgress (1): 11/246 kB Progress (1): 14/246 kBProgress (1): 17/246 kBProgress (1): 20/246 kBProgress (1): 24/246 kBProgress (1): 28/246 kBProgress (1): 32/246 kBProgress (1): 34/246 kBProgress (1): 38/246 kBProgress (1): 41/246 kBProgress (1): 45/246 kBProgress (1): 48/246 kBProgress (1): 52/246 kBProgress (1): 55/246 kBProgress (1): 59/246 kBProgress (1): 63/246 kBProgress (1): 68/246 kBProgress (1): 69/246 kBProgress (1): 73/246 kBProgress (1): 77/246 kBProgress (1): 80/246 kBProgress (1): 84/246 kBProgress (1): 88/246 kBProgress (1): 90/246 kBProgress (1): 94/246 kBProgress (1): 98/246 kBProgress (1): 102/246 kBProgress (1): 105/246 kBProgress (1): 109/246 kBProgress (1): 113/246 kBProgress (1): 117/246 kBProgress (1): 119/246 kBProgress (1): 123/246 kBProgress (1): 126/246 kBProgress (1): 130/246 kBProgress (1): 134/246 kBProgress (1): 137/246 kBProgress (1): 141/246 kBProgress (1): 145/246 kBProgress (1): 147/246 kBProgress (1): 151/246 kBProgress (1): 154/246 kBProgress (1): 157/246 kBProgress (1): 162/246 kBProgress (1): 166/246 kBProgress (1): 168/246 kBProgress (1): 172/246 kBProgress (1): 176/246 kBProgress (1): 180/246 kBProgress (1): 184/246 kBProgress (1): 188/246 kBProgress (1): 192/246 kBProgress (1): 197/246 kBProgress (1): 201/246 kBProgress (1): 205/246 kBProgress (1): 209/246 kBProgress (1): 209/246 kBProgress (1): 214/246 kBProgress (1): 218/246 kBProgress (1): 222/246 kBProgress (1): 226/246 kBProgress (1): 230/246 kBProgress (1): 234/246 kBProgress (1): 238/246 kBProgress (1): 242/246 kBProgress (1): 246 kB                        Downloaded: http://123.126.34.184:48080/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.jar (246 kB at 811 kB/s)
-[INFO] 
-[INFO] ------------------------------------------------------------------------
-[INFO] Building frame_web 0.0.1-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.10:tree (default-cli) @ frame_web ---
-[INFO] com.wz:frame_web:war:0.0.1-SNAPSHOT
-[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:1.5.3.RELEASE:compile
-[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE:compile
-[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE:compile
-[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
-[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
-[INFO] |  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
-[INFO] |  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
-[INFO] |  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
-[INFO] |  |  \- org.yaml:snakeyaml:jar:1.17:runtime
-[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.3.RELEASE:compile
-[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.14:compile
-[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.14:compile
-[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.14:compile
-[INFO] |  +- org.hibernate:hibernate-validator:jar:5.3.5.Final:compile
-[INFO] |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
-[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
-[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.3:compile
-[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
-[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
-[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
-[INFO] |  +- org.springframework:spring-web:jar:4.3.8.RELEASE:compile
-[INFO] |  |  +- org.springframework:spring-aop:jar:4.3.8.RELEASE:compile
-[INFO] |  |  +- org.springframework:spring-beans:jar:4.3.8.RELEASE:compile
-[INFO] |  |  \- org.springframework:spring-context:jar:4.3.8.RELEASE:compile
-[INFO] |  \- org.springframework:spring-webmvc:jar:4.3.8.RELEASE:compile
-[INFO] |     \- org.springframework:spring-expression:jar:4.3.8.RELEASE:compile
-[INFO] +- org.springframework.boot:spring-boot-devtools:jar:1.5.3.RELEASE:runtime
-[INFO] |  +- org.springframework.boot:spring-boot:jar:1.5.3.RELEASE:compile
-[INFO] |  \- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.3.RELEASE:compile
-[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE:test
-[INFO] |  +- org.springframework.boot:spring-boot-test:jar:1.5.3.RELEASE:test
-[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.3.RELEASE:test
-[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.2.0:test
-[INFO] |  |  \- net.minidev:json-smart:jar:2.2.1:test
-[INFO] |  |     \- net.minidev:accessors-smart:jar:1.1:test
-[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.3:test
-[INFO] |  +- junit:junit:jar:4.12:test
-[INFO] |  +- org.assertj:assertj-core:jar:2.6.0:test
-[INFO] |  +- org.mockito:mockito-core:jar:1.10.19:test
-[INFO] |  |  \- org.objenesis:objenesis:jar:2.1:test
-[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
-[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
-[INFO] |  +- org.skyscreamer:jsonassert:jar:1.4.0:test
-[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
-[INFO] |  +- org.springframework:spring-core:jar:4.3.8.RELEASE:compile
-[INFO] |  \- org.springframework:spring-test:jar:4.3.8.RELEASE:test
-[INFO] +- com.alibaba:druid:jar:1.1.5:compile
-[INFO] +- com.alibaba:fastjson:jar:1.2.4:compile
-[INFO] +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1:compile
-[INFO] |  \- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1:compile
-[INFO] |     +- org.mybatis:mybatis:jar:3.4.0:compile
-[INFO] |     +- org.mybatis:mybatis-spring:jar:1.3.0:compile
-[INFO] |     \- org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.3.RELEASE:compile
-[INFO] |        +- org.apache.tomcat:tomcat-jdbc:jar:8.5.14:compile
-[INFO] |        |  \- org.apache.tomcat:tomcat-juli:jar:8.5.14:compile
-[INFO] |        \- org.springframework:spring-jdbc:jar:4.3.8.RELEASE:compile
-[INFO] |           \- org.springframework:spring-tx:jar:4.3.8.RELEASE:compile
-[INFO] +- org.mybatis.generator:mybatis-generator:pom:1.3.5:compile
-[INFO] +- org.mybatis.generator:mybatis-generator-core:jar:1.3.5:compile
-[INFO] +- com.github.pagehelper:pagehelper:jar:4.1.6:compile
-[INFO] |  \- com.github.jsqlparser:jsqlparser:jar:0.9.5:compile
-[INFO] +- org.javatuples:javatuples:jar:1.2:compile
-[INFO] +- com.alibaba:dubbo:jar:2.5.7:compile
-[INFO] |  +- org.javassist:javassist:jar:3.21.0-GA:compile
-[INFO] |  \- org.jboss.netty:netty:jar:3.2.5.Final:compile
-[INFO] +- org.apache.zookeeper:zookeeper:jar:3.4.12:compile
-[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
-[INFO] |  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
-[INFO] |  +- log4j:log4j:jar:1.2.17:compile
-[INFO] |  +- jline:jline:jar:0.9.94:compile
-[INFO] |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
-[INFO] |  \- io.netty:netty:jar:3.10.6.Final:compile
-[INFO] \- com.github.sgroschupf:zkclient:jar:0.1:compile
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.353 s
-[INFO] Finished at: 2018-07-24T16:37:36+08:00
-[INFO] Final Memory: 25M/242M
-[INFO] ------------------------------------------------------------------------
