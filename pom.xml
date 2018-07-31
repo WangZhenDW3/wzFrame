@@ -20,6 +20,95 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
+        <springloaded.version>1.2.6.RELEASE</springloaded.version>
+        <!-- thymeleaf版本调整为3.0 -->
+        <thymeleaf.version>3.0.5.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>2.2.1</thymeleaf-layout-dialect.version>
+        <thymeleaf-extras-java8time.version>3.0.0.RELEASE</thymeleaf-extras-java8time.version>
+        <assertj-core-version>3.6.2</assertj-core-version>
+        <!-- 框架版本 -->
+        <woego-frame-boot.version>1.0.2</woego-frame-boot.version>
+
+        <woego-frame.version>2.0.2</woego-frame.version>
+
+        <alibaba.druid.version>1.0.25</alibaba.druid.version>
+        <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+        <github.pagehelper.version>5.0.1</github.pagehelper.version>
+        <pagehelper.spring-boot.version>1.1.1</pagehelper.spring-boot.version>
+        <mybatis.spring-boot.version>1.1.1</mybatis.spring-boot.version>
+        <mybatis.version>3.4.0</mybatis.version>
+        <alibaba.fastjson.version>1.2.31</alibaba.fastjson.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <zkclient.version>0.10</zkclient.version>
+        <quartz.version>2.2.1</quartz.version>
+        <poi.version>3.12</poi.version>
+        <commons-fileupload.version>1.3.1</commons-fileupload.version>
+        <!-- asiainfo框架lddp依赖版本 -->
+        <cb2.version>1.6.5</cb2.version>
+        <dbcp.version>1.4</dbcp.version>
+        <spring.security.oauth2.version>2.0.1.RELEASE</spring.security.oauth2.version>
+        <qrcode.version>1.0</qrcode.version>
+
+        <!-- WebJars管理前端框架版本，统一各web子模块引用 -->
+        <webjars.jquery.version>3.2.0</webjars.jquery.version>
+        <webjars.bootstrap.version>3.3.7</webjars.bootstrap.version>
+        <webjars.bootstrap-table.version>1.11.1</webjars.bootstrap-table.version>
+        <webjars.tableExport-plugin.version>1.9.0</webjars.tableExport-plugin.version>
+        <webjars.smalot-datetimepicker.version>2.4.4</webjars.smalot-datetimepicker.version>
+        <webjars.kartik-v-bootstrap-fileinput.version>4.3.9</webjars.kartik-v-bootstrap-fileinput.version>
+        <webjars.fontawesome.version>4.7.0</webjars.fontawesome.version>
+        <webjars.awesome-bootstrap-checkbox.version>1.0.0-alpha.5</webjars.awesome-bootstrap-checkbox.version>
+        <webjars.jquery-cookie.version>1.4.1</webjars.jquery-cookie.version>
+        <webjars.jquery-migrate.version>3.0.0</webjars.jquery-migrate.version>
+        <webjars.jquery-validation.version>1.16.0</webjars.jquery-validation.version>
+        <webjars.html5shiv.version>3.7.0</webjars.html5shiv.version>
+        <webjars.respond.version>1.3.0</webjars.respond.version>
+        <webjars.vue.version>2.1.3</webjars.vue.version>
+        <webjars.materializecss.version>0.99.0</webjars.materializecss.version>
+        <webjars.ckeditor.version>4.4.7</webjars.ckeditor.version>
+        <webjars.bootstrap-treeview.version>1.2.0</webjars.bootstrap-treeview.version>
+        <webjars.jquery-blockui.version>2.65</webjars.jquery-blockui.version>
+
+        <!-- aop  -->
+        <aopalliance.aopalliance.version>1.0</aopalliance.aopalliance.version>
+        <org.aspectj.version>1.8.10</org.aspectj.version>
+
+        <!-- HSF -->
+        <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+        <edas-sdk.version>1.5.0</edas-sdk.version>
+        <lightApi.version>1.0.0</lightApi.version>
+        <spring-cloud-starter-pandora.version>1.0</spring-cloud-starter-pandora.version>
+
+        <ecaop-client.version>0.0.2-SNAPSHOT</ecaop-client.version>
+
+        <!-- MT -->
+        <mt_transfer_service.version>1.4.1</mt_transfer_service.version>
+        <cache_common.version>1.0.2</cache_common.version>
+        <cache_service.version>1.2.1</cache_service.version>
+        <commons-codec.version>1.8</commons-codec.version>
+        <commons-fileupload.version>1.3</commons-fileupload.version>
+        <commons-httpclient.version>3.1</commons-httpclient.version>
+        <commons-io.version>2.4</commons-io.version>
+        <dom4j.version>1.6.1</dom4j.version>
+        <jaxen.version>1.1.6</jaxen.version>
+        <jackson-dataformat-xml.version>2.8.4</jackson-dataformat-xml.version>
+        <staxon.version>1.2</staxon.version>
+        <commons-dbcp.version>1.4</commons-dbcp.version>
+        <!--FTP-->
+        <commons-net.version>3.1</commons-net.version>
+        <com-jcraft.version>0.1.50</com-jcraft.version>
+        <!--KAFKA-->
+        <kafka.version>0.9.0.0</kafka.version>
+
+
+
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -87,6 +176,10 @@
                     <groupId>org.springframework</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>

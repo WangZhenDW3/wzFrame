@@ -10,14 +10,4 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private UserDao userDao;
-
-    @Override
-    public User queryUserById(String userId) {
-        User user=new User();
-        user.setUserId(userId);
-        User result=userDao.queryByUserId(user);
-        return result;
-    }
 }
