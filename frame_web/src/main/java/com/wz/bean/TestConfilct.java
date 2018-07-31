@@ -1,7 +1,5 @@
 package com.wz.bean;
 
-import java.util.Date;
-
 /**
  * Created by wangzhen on 2018/7/31.
  */
