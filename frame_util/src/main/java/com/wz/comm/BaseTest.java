@@ -5,6 +5,6 @@ package com.wz.comm;
  */
 public class BaseTest {
     public void test1(){
-        System.out.println("滚滚滚");
+        System.out.println("123滚滚滚312");
     }
 }
