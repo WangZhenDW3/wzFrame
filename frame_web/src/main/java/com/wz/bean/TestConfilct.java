@@ -6,4 +6,5 @@ package com.wz.bean;
 public class TestConfilct {
     int name;
     int a;
+    int kkk;
 }
