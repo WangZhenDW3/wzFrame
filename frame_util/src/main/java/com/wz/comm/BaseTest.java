@@ -5,6 +5,6 @@ package com.wz.comm;
  */
 public class BaseTest {
     public void test1(){
-        System.out.println("TEST!TestTest");
+        System.out.println("TEST!TestTest222222222");
     }
 }
