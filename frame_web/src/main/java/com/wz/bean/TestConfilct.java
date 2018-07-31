@@ -8,4 +8,5 @@ public class TestConfilct {
     int a;
     int kkk;
     String hello;
+    String newDate;
 }

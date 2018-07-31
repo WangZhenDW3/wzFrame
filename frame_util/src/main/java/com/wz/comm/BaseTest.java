@@ -5,6 +5,6 @@ package com.wz.comm;
  */
 public class BaseTest {
     public void test1(){
-        System.out.println("滚滚滚gasssss");
+        System.out.println("滚滚滚修复BUG");
     }
 }
