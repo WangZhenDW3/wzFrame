@@ -7,4 +7,5 @@ public class TestConfilct {
     int name;
     int a;
     int kkk;
+    String hello;
 }
