@@ -24,8 +24,5 @@ public class TestController {
     @RequestMapping("/test3")
     public void test3(){
         System.out.println("ok");
-        System.out.println("ok33333333333");
-        System.out.println("ok33333333333");
-        System.out.println("ok33333");
     }
 }
